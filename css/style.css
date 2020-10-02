@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: top;
+}
+
+body{
+    background-color: white;
+}
+
+nav{
+    position: absolute;
+    width: 1440px;
+    height: 180px;
+    left: 0px;
+    top: 0px;
+    
+    
+
+    background: #9BD2DE;
+}
+
+nav ul > li > a {
+    padding: 2em;
+    display: flex;
+    text-decoration: none;
+    color: #361a0c;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+#area-logo{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 30%;
+}
+
+
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.2em;
+    list-style-type: none;
+    justify-content: center;
+    
+}
+
+
